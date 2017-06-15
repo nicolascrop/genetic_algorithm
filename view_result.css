@@ -1,0 +1,77 @@
+body{
+    background-color: #222;
+    color: #dedede;
+    font-size:12px;
+}
+
+#charge{
+    display:block;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    width:300px;
+    overflow-y:scroll;
+}
+
+#charge ul, #vac ul{
+    list-style-type: none;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+#charge ul li{
+    display:block;
+    height:25px;
+    line-height:25px;
+    font-weight:bold;
+}
+
+#rle{
+    position:absolute;
+    top:0px; left:300px; right:0px; height:30px;
+    border-bottom:1px solid #555;
+    background-color:#999;
+}
+
+#rle span{
+    display:inline-block;
+    width:2.08333333333%;
+    box-sizing: border-box;
+    border-right:1px solid #222;
+    color: #222;
+    font-weight:bold;
+    height:100%;
+    font-size:11px;
+}
+
+#vac{
+    position:absolute;
+    top:31px; left:300px; right:0px; bottom:0px;
+    overflow-y: scroll;
+}
+
+#vac li{
+    border:1px solid #555;
+    background-color: #999;
+    color: #222;
+    font-weight:bold;
+    height:30px;
+    display:block;
+    position:relative;
+}
+
+#vac li span{
+    border:1px solid #555;
+    background-color: #bb2222;
+    /*color: #222;*/
+    font-weight:bold;
+    display:block;
+    position: absolute;
+    top:5px;
+    bottom: 5px;
+    line-height:20px;
+    white-space: nowrap;
+    color: #fefefe
+}
